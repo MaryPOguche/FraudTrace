@@ -153,7 +153,7 @@ jupyter notebook notebooks/eda_fraudtrace.ipynb
 ```
 
 ### 10. Power BI dashboard
-The built report is `dashboard/FraudTrace.pbix` (5 pages, git-ignored). To
+The built report is `https://drive.google.com/file/d/1jItrbe6jpiTB3NZ_0L9USvIpCZcQRHm1/view?usp=drive_link` (5 pages, git-ignored). To
 rebuild it, import the CSV files from `data/exports/` (or connect directly to
 the `vw_*` views) and follow `dashboard/README.md` / `dashboard/BUILD_CHECKLIST.md`.
 
@@ -219,8 +219,14 @@ The generator injects 6 fraud patterns:
 - Amounts span 8 currencies, so volume totals blend unlike units and are
   reported without a currency symbol
 - Single database instance (not distributed)
-- The built Power BI report (`dashboard/FraudTrace.pbix`) is git-ignored, so it
-  is rebuilt manually in Power BI Desktop
+- The built Power BI report (`https://drive.google.com/file/d/1jItrbe6jpiTB3NZ_0L9USvIpCZcQRHm1/view?usp=drive_link`) is git-ignored, so it is rebuilt manually in Power BI Desktop
+
+## Power BI Dashboard
+
+The interactive dashboard was developed using Power BI.
+
+[Click here to download the Power BI Dashboard](https://drive.google.com/file/d/1jItrbe6jpiTB3NZ_0L9USvIpCZcQRHm1/view?usp=drive_link)
+  
 
 ## License
 
